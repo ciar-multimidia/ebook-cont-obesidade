@@ -282,6 +282,7 @@ color: #007056;
 }
 
 .areaconteudo h2{
+    line-height: 1.2em;
 font-size: 25px;
 font-weight: 500;
 padding-top: 30px;
@@ -321,6 +322,10 @@ blockquote {
 font-size: 15px;
 font-weight: 300;
 line-height: 24px;
+}
+
+.areaconteudo a{
+color: #007056;    
 }
 
 /*NOTAS_DE_RODAPÉ*/
@@ -619,9 +624,11 @@ cursor: pointer;
 
 .ficha {
 /*margin-top: 70px;*/
+padding-top: 40px;
 padding-bottom: 70px;
 display: grid;
-grid-template-columns: 50% 50%;
+width: 70%;
+/*grid-template-columns: 50% 50%;*/
 }
 
 
@@ -630,17 +637,22 @@ color: #000;
 font-size: 22px;  
 text-transform: uppercase;
 font-weight: normal;
-padding-top: 100px;  
+padding-top: 40px;  
+margin: 0;
 }
 
 .ficha h2 {
 color: #000;
 font-size: 18px;
 padding-top: 20px;
+line-height: 1.5em;
+margin: 0;
 }
 
 .ficha p {
 font-size: 15px;
+margin: 0;
+padding-top: 8px;
 }
 
 .box {
