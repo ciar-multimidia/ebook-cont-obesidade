@@ -695,6 +695,12 @@ color: #007056;
 color: #000;
 }
 
+.marcas img {
+    margin-top: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 50px;
+}
 
 
 
