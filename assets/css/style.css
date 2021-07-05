@@ -697,11 +697,22 @@ color: #000;
 
 .marcas img {
     margin-top: 60px;
+    margin-bottom: 60px;
     height: 60px;
-    display: inline-block;
-    margin-right: 50px;
+    display: block;
+    margin-right: 30px;
 }
 
+.marcas2 img {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.marcas2 figcaption {
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-weight: bold;
+}
 
 
 
