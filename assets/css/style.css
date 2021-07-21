@@ -669,31 +669,24 @@ width: 800px;
 padding: 30px;
 font-size: 16px;
 font-weight: 300;
-align-items: left;
-margin-bottom: 100px;
+margin-bottom: 10px;
+display: inline-block;
 }
 
-.isbn {
-margin-bottom: 60px;    
+.esquerda {
+    float:  left;
+    width: 50px;
+}
+.direita {
+    display: inline-block;
+    float: right;
+    width: calc(100% - 50px);
 }
 
-.isbn h1{
-font-weight: normal;
-font-size: 18px;
-padding-bottom: 10px;
+.assin {
+    margin-bottom: 100px;
 }
 
-.isbn a {
-font-weight: 500;
-margin-top: 80px;
-text-decoration: none;
-font-size: 20px; 
-color: #007056;   
-}
-
-.isbn a:hover {
-color: #000;
-}
 
 .marcas img {
     margin-top: 60px;
