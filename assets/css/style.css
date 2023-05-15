@@ -676,15 +676,15 @@ margin-bottom: 10px;
 display: inline-block;
 }
 
-/*.esquerda {
+.esquerdaficha {
     float:  left;
     width: 50px;
 }
-.direita {
+.direitaficha {
     display: inline-block;
     float: right;
     width: calc(100% - 50px);
-}*/
+}
 
 .assin {
     margin-bottom: 100px;
@@ -708,6 +708,13 @@ display: inline-block;
     padding-top: 50px;
     padding-bottom: 0;
     font-weight: bold;
+}
+
+
+@media print {
+    footer, header {
+        display: none;
+    }
 }
 
 
