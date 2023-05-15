@@ -515,6 +515,7 @@ font-family: Roboto-Regular;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 font-size: 18px;
+text-align: center;
 }
 
 footer a {
@@ -523,17 +524,19 @@ color: #fff;
 }
 
 .esquerda{
-padding-right: 20px;
+width: 10px;
+float: left;
 }
 
 .menufooter {
-width: 28px;  
+width: 28px; 
+margin: 0 auto;
 display: inline-block; 
 }
 
 .direita {
-float: right;
-padding-left: 40px; 
+width: 10px;
+float: right; 
 }
 
 /*footer do inicio*/
@@ -673,7 +676,7 @@ margin-bottom: 10px;
 display: inline-block;
 }
 
-.esquerda {
+/*.esquerda {
     float:  left;
     width: 50px;
 }
@@ -681,7 +684,7 @@ display: inline-block;
     display: inline-block;
     float: right;
     width: calc(100% - 50px);
-}
+}*/
 
 .assin {
     margin-bottom: 100px;
